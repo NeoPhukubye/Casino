@@ -73,6 +73,7 @@ LLM_MODEL=gpt-4o-mini  # for OpenAI (fast, cost-effective)
 ### 4. Run the scraper
 
 ```bash
+cd scraper
 python scraper.py
 ```
 
