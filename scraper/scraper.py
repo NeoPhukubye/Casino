@@ -1,10 +1,9 @@
-import sys
-import os
+#!/usr/bin/env python3
+"""
+Main entry point for casino bonus scraper.
+"""
 
-# Add current directory to path for imports
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from scraper_runner import main
+from main import main
 
 if __name__ == "__main__":
     main()
