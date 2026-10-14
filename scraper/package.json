@@ -1,0 +1,19 @@
+{
+  "name": "casino-bonus-scraper",
+  "version": "1.0.0",
+  "description": "Casino bonus scraper with LLM-powered extraction",
+  "main": "scraper.ts",
+  "scripts": {
+    "scrape": "ts-node scraper.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "openai": "^4.67.3",
+    "@anthropic-ai/sdk": "^0.29.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
